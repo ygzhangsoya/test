@@ -6,7 +6,7 @@ using namespace std;
  
 class programming
 {
-   private:
+   public:
       int variable;
  
    public:
