@@ -21,13 +21,21 @@ class programming
       {
          cout << "Variable entered is ";
          cout << variable << "\n";
+         cout << "done.\n" << endl ;
       }
+
+      void output_help()
+      {
+         cout << "Enter a number please" << endl ;
+      }
+
 };
  
 main()
 {
-   programming object;
+   programming object; 
  
+   object.output_help() ;
    object.input_value();
    object.output_value();
  
